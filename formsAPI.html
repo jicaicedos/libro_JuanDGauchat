@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Practica Javascript</title>
+	<link rel="stylesheet" href="css/estilos_practica.css">
+	<link rel="stylesheet" href="css/propiedades_css.css">	
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans|Lobster|Righteous' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="contenedor_principal">
+		<header id="cabecera">
+			<h1>Practicando JavaScript</h1>
+		</header>
+		<nav id="menu">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="propiedades_css.html">Propiedades de CSS 3</a></li>
+				<li><a href="javascript.html">JavaScript</a></li>
+				<li><a href="video.html">Video</a></li>
+				<li><a href="audio.html">Audio</a></li>
+				<li><a href="forms.html">Formularios</a></li>
+			</ul>
+		</nav>
+		<section>
+			<article>
+				<div class="resultado">
+					<form name="miFormulario" autocomplete="on" id="miFormulario" method="get">
+						<p>Nombre</p><input type="text" name="nombre" id="nombre"/><br>
+						<br>
+						<input type="submit" value="Enviar">
+					</form>
+					<p id="texto_autocompletar"></p>
+				</div>
+				<div class="codigo">
+					<h2>API de Formularios</h2><br><br>
+					<p id="texto_form_API"></p>
+				</div>
+			</article>
+		</section>
+	</div>
+</body>
+<script src="js/textos_formsAPI.js"></script>
+</html>

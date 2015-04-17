@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Practica Javascript</title>
+	<link rel="stylesheet" href="css/estilos_practica.css">
+	<link rel="stylesheet" href="css/propiedades_css.css">	
+	<link rel="stylesheet" href="css/estilos_audiovideo.css">
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans|Lobster|Righteous' rel='stylesheet' type='text/css'>
+	<style>
+		p {
+			margin-top: 10px;
+		}
+		#formExterno {
+			background: #DAC59C;
+		}
+	</style>
+</head>
+<body>
+	<div id="contenedor_principal">
+		<header id="cabecera">
+			<h1>Practicando JavaScript</h1>
+		</header>
+		<nav id="menu">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="propiedades_css.html">Propiedades de CSS 3</a></li>
+				<li><a href="javascript.html">JavaScript</a></li>
+				<li><a href="video.html">Video</a></li>
+				<li><a href="audio.html">Audio</a></li>
+				<li><a href="forms.html">Formularios</a></li>
+			</ul>
+		</nav>
+		<section>
+			<article>
+				<div class="resultado">
+					<form name="miFormulario" autocomplete="on" id="miFormulario" method="get">
+						<p>Nombre</p><input type="text" name="nombre" id="nombre"/><br>
+						<p>Email</p><input type="email" name="miemail" id="miemail"><br>
+						<p>Búsqueda</p><input type="search" name="busqueda" id="busqueda"><br>
+						<p>URL</p><input type="url" name="miurl" id="miurl"><br>
+						<p>Teléfono</p><input type="tel" name="telefono" id="telefono"><br>
+						<p>Numero</p><input type="number" name="numero" id="numero" value="0" min="0" max="10" step="1">
+						<p>Rango</p><input type="range" name="rango" id="rango" value="5" min="0" max="10" step="2"><br>
+						<br>
+						<input type="submit" value="Enviar">
+					</form>
+					<p id="texto_autocompletar"></p>
+				</div>
+				<div class="codigo">
+					<h2>Tipos de <em>input</em> en formularios</h2><br><br>
+					<p id="texto_form"></p>
+				</div>
+			</article>
+			<article>
+				<div class="resultado">
+					<form name="miFormulario" autocomplete="on" id="miSegundoFormulario" method="post">
+						<p>Fecha </p><input type="date" name="mifecha" id="mifecha"><br>
+						<p>Tipo week</p><input type="week" name="semana" id="semana"><br>
+						<p>Tipo month</p><input type="month" name="mes" id="mes"><br>
+						<p>Tipo time</p><input type="time" name="hora" id="hora"><br>
+						<p>Tipo datetime</p><input type="datetime" name="fechahora" id="fechahora"><br>
+						<p>Time datetime-local</p><input type="datetime-local" name="fechahora-local" id="fechahora-local"><br>					
+						<br>
+						<input type="submit" value="Enviar">
+					</form>
+					<p id="texto_input_date"></p>
+				</div>
+				<div class="codigo">
+					<span>Tipo <strong><em>date</em></strong> y tipos de <strong><em>input</em></strong></span><br><br>
+					<p id="texto_form"></p>
+				</div>
+			</article>
+			<article>
+				<div class="resultado">
+					<form name="miFormulario" autocomplete="on" id="miSegundoFormulario" method="post">
+						<p>Fecha </p><input type="date" name="mifecha" id="mifecha"><br>
+						<p>Tipo week</p><input type="week" name="semana" id="semana"><br>
+						<p>Tipo month</p><input type="month" name="mes" id="mes"><br>
+						<p>Tipo time</p><input type="time" name="hora" id="hora"><br>
+						<p>Tipo datetime</p><input type="datetime" name="fechahora" id="fechahora"><br>
+						<p>Time datetime-local</p><input type="datetime-local" name="fechahora-local" id="fechahora-local"><br>					
+						<br>
+						<input type="submit" value="Enviar">
+					</form>
+					<p id="texto_input_date"></p>
+				</div>
+				<div class="codigo">
+					<span>Tipo <strong><em>date</em></strong> y tipos de <strong><em>input</em></strong></span><br><br>
+					<p id="texto_form"></p>
+				</div>
+			</article>
+			<article>
+				<div class="resultado">
+					<form name="miFormulario" autocomplete="on" id="miTercerFormulario" method="get">
+						<p>Seleccione un color</p><input type="color" name="micolor" id="micolor"><br>
+						<p>Usando el atributo <strong><em>placeholder</em></strong></p>
+						<input type="search" name="otrotexto" id="otrotexto" placeholder="Escriba tema a buscar"><br>
+						<p>Usando el atributo <strong><em>required</em></strong></p>
+						<input type="email" name="otroemail" id="otroemail" required><br>
+						<p>Usando el atributo <strong><em>multiple</em></strong></p>
+						<input type="email" name="terceremail" id="terceremail" multiple><br>
+						<p>Usando el atributo <strong><em>autofocus</em></strong></p>
+						<input type="search" name="autofocus" id="autofocus" autofocus><br>
+						<p>Usando el atributo <strong><em>pattern y title</em></strong></p>
+						<input pattern="[0-9]{5}" name="codigo_postal" id="codigo_postal" title="Digitar los 5 números del código postal"><br>
+						<br>
+						<input type="submit" value="Enviar">
+					</form>
+					<p id="texto_input_otros"></p>
+				</div>
+				<div class="codigo">
+					<span>Tipo <strong><em>color</em></strong> y algunas propiedades en <strong><em>input</em></strong></span><br><br>
+					<p id="texto_form"></p>
+					<p>El atributo <strong>pattern</strong> sirve para establecer <strong>expresiones regulares</strong></p>
+					<p>El atributo <strong>title</strong> sirve para personalizar mesaje popup</p>
+				</div>
+			</article>
+			<article>
+				<div class="resultado">
+					<p><strong>input</strong> fuera de form</p>
+					<input type="search" name="formBusqueda" id="formBusqueda" form="formExterno" placeholder="input fuera del form"><br>
+					<form name="formExterno" id="formExterno" method="get">
+						<p><strong>input</strong> dentro de form</p><input type="text" name="nombre2" id="nombre2" placeholder="input dentro del form"><br>
+						<br>
+						<input type="submit" value="Enviar">
+					</form>
+				</div>
+				<div class="codigo">
+					<span>Tipo <strong><em>color</em></strong> y algunas propiedades en <strong><em>input</em></strong></span><br><br>
+					<p id="texto_attrib_form"></p>
+					<p> El elemento declarado fuera del formulario también hace parte del formulario debido a la propiedad <strong><em>form</em></strong></p>
+				</div>
+			</article>
+			<article>
+				<div class="resultado">
+					<datalist id="informacion">
+						<option value="3202130000" label="Telefono COL">
+						<option value="3168787444" label="Telefono MEX">
+					</datalist>
+					<form name="form_nuevos_elementos" id="form_nuevos_elementos" method="get">
+						<p>Elemento <strong><em>datalist</em></strong></p>
+						<input type="text" name="elemento_list" id="elemento_list" list="informacion"><br>
+						<br>
+						<input type="submit" value="Enviar">
+					</form>
+				</div>
+				<div class="codigo">
+					<span><strong>Nuevos elementos para Formularios</strong></span><br><br>
+					<span>Elemento <strong>datalist</strong></span>
+					<p id="texto_elemento_datalist"></p>
+				</div>
+			</article>
+		</section>
+	</div>
+</body>
+<script src="js/textos_forms.js"></script>
+</html>

@@ -1,0 +1,134 @@
+*
+	margin 0
+	padding 0
+	-moz-box-sizing border-box
+	-webkit-box-sizing border-box
+	box-sizing border-box
+
+header, nav, section, article, figure, figcaption, address, aside, footer
+	display block
+
+h1
+	// font bold 16px verdana, sans-serif
+	// font-family 'Lobster', cursive;
+	// font-family 'Fredericka the Great', cursive;
+	font-family 'Josefin Sans', sans-serif;
+
+h2
+	font bold 16px verdana, sans-serif
+
+p
+	font normal 12px verdana, sans-serif
+
+article
+	background #55F
+	display inline-block
+	width 650px
+	// display -webkit-inline-box
+	// display -moz-inline-box
+	border 2px solid gray
+	margin-bottom 1rem
+
+article:nth-child(odd)
+	background #E5E5E5
+	& footer
+		background #A7CEDA
+		padding 0.5rem 1.4rem
+	
+article:nth-child(even)
+	background #A7CEDA
+	& footer
+		background #E5E5E5
+		padding 0.5rem 1.4rem		
+
+aside
+	border 2px solid red
+	background #CCC
+	float left
+	margin-top 1rem
+	margin-left 1rem
+	padding 10px
+	width 200px
+
+body
+	background #F4F5F7
+	text-align center
+
+nav
+	border 1px solid #999
+	
+p
+	margin 0
+
+section
+	float left
+	// display -webkit-inline-box
+	// display -moz-display inline-block
+	margin 1rem
+	width 660px
+
+time
+	color #999
+	
+figcaption
+	font italic 14px verdana, sans-serif
+	
+#cabecera
+	background #FFFBB9
+	border 1px solid #999999
+	padding 20px
+
+#wrapper
+	background #844A84
+
+#wrapper 
+	& p:nth-child(odd)  // impar -> gris
+		background #E5E5E5	
+	& p:nth-child(even)  // par -> azul claro
+		background #A7CEDA
+
+#contenedor_principal 
+	margin auto
+	text-align left
+	width 960px
+	
+#menu
+	background #CCC
+	padding 5px 15px
+	
+#menu li
+	display inline-block
+	font 18px 'Lobster', cursive
+	list-style none	
+	padding 5px
+	padding-left 10px
+	padding-right 10px
+	background #DDD
+	border-radius 20px
+	& a
+		text-decoration none
+	
+#pie
+	background #EAC044
+	border-top 2px solid #000
+	clear both
+	padding 20px
+	text-align center
+	& small
+		font 10px 'Fredericka the Great', cursive
+	& p
+		font 22px 'Lobster', cursive
+.post
+	padding 1.4rem
+
+.resultado
+	display inline-block
+	width 450px
+	padding 1rem
+	
+.codigo
+	display inline-block
+	width 400px
+	margin-left 15px
+	border-left 1px solid black
+	padding 1rem

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Practica Javascript</title>
+	<link rel="stylesheet" href="css/estilos_practica.css">
+	<link rel="stylesheet" href="css/propiedades_css.css">	
+	<link rel="stylesheet" href="css/estilos_audiovideo.css">
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans|Lobster|Righteous' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="contenedor_principal">
+		<header id="cabecera">
+			<h1>Practicando JavaScript</h1>
+		</header>
+		<nav id="menu">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="propiedades_css.html">Propiedades de CSS 3</a></li>
+				<li><a href="javascript.html">JavaScript</a></li>
+				<li><a href="video.html">Video</a></li>
+				<li><a href="audio.html">Audio</a></li>
+				<li><a href="forms.html">Formularios</a></li>
+			</ul>
+		</nav>
+		<section>
+			<article>
+				<div class="resultado">
+					<div id="reproductor_audio">
+						<button type="button" id="reproductor_audio_reproducir">Reproducir</button>
+						<audio id="miaudio" width="200">
+							<source src="audios/Himno a Colombia.mp3"></source>
+							<source src="audios/Himno a Colombia.ogg"></source>
+						</audio>
+						<nav id="reproductor_audio_nav">
+							<div id="reproductor_audio_barra">
+								<div id="progreso_audio"></div>
+							</div>
+						</nav>
+						<div id="tiempos">
+							<p id="reproductor_audio_avance">0:0:0</p>
+							<p id="reproductor_audio_duracion">0:0:0</p>
+						</div>
+					</div>
+				</div>
+				<div class="codigo">
+					<h2>Cargar un archivo de audio</h2><br><br>
+					<span id="texto_codigo"></span>
+					<span><a href="js/reproductor_audio.js">reproductor_audio.js</a></span>
+				</div>
+			</article>
+		</section>
+	</div>
+</body>
+<script src="js/js_audio_txt.js"></script>
+<script src="js/reproductor_audio.js"></script>
+</html>
