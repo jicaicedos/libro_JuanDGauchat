@@ -20,21 +20,55 @@
 				<li><a href="video.html">Video</a></li>
 				<li><a href="audio.html">Audio</a></li>
 				<li><a href="forms.html">Formularios</a></li>
+				<li><a href="formsAPI.html">Formularios-API</a></li>
 			</ul>
 		</nav>
 		<section>
 			<article>
 				<div class="resultado">
 					<form name="miFormulario" autocomplete="on" id="miFormulario" method="get">
-						<p>Nombre</p><input type="text" name="nombre" id="nombre"/><br>
+						<p>Primer nombre</p><input type="text" name="pnombre" id="pnombre"/><br>
+						<p>Segundo nombre</p><input type="text" name="snombre" id="snombre"/><br>
+						<p>Apellido</p><input type="text" name="apellido" id="apellido"/><br>
 						<br>
 						<input type="submit" value="Enviar">
 					</form>
-					<p id="texto_autocompletar"></p>
 				</div>
 				<div class="codigo">
 					<h2>API de Formularios</h2><br><br>
 					<p id="texto_form_API"></p>
+				</div>
+			</article>
+			<article>
+				<div class="resultado">
+					<form name="miFormularioEventInvalid" autocomplete="on" id="miFormularioEventInvalid" method="get">
+						<p>Usuario <em>(El usuario debe tener mínimo 3 y máximo 10 caracteres del alfabeto)</em></p><input type="text" name="usuario" id="usuario" maxlength="10" required/><br>
+						<p>E-mail</p><input type="email" name="miemail" id="miemail" required/><br>
+						<p>Edad</p><input type="range" name="edad" id="edad" min="0" max="80" step="20" value="20" /><br>
+						<output id="rango">0 a 20</output>
+						<br><br>
+						<input type="submit" value="Enviar">
+						<!-- <input type="button" id="enviar" value="ingresar"> -->
+					</form>
+				</div>
+				<div class="codigo">
+					<h2>API de Formularios</h2><br><br>
+					<p id="texto_event_invalid"></p>
+				</div>
+			</article>
+			<article>
+				<div class="resultado">
+					<form name="formularioTiempoReal" autocomplete="on" id="formularioTiempoReal" method="get">
+						<p><strong>Usuario</strong> <em>(El usuario debe tener mínimo 3 y máximo 10 caracteres del alfabeto)</em></p>
+						<input pattern="[A-Za-z]{4,}" type="text" name="usuario2" id="usuario2" maxlength="10" required/><br>
+						<br><br>
+						<!-- <input type="submit" value="Enviar"> -->
+						<input type="button" id="enviar" value="ingresar">
+					</form>
+				</div>
+				<div class="codigo">
+					<h2>API de Formularios</h2><br><br>
+					<p id="texto_tiempo_real"></p>
 				</div>
 			</article>
 		</section>
