@@ -126,29 +126,47 @@ figcaption
 	padding 1.4rem
 
 .resultado
-	display inline-block
+	// display inline-block
 	width 450px
 	padding 1rem
 	
 .codigo
-	display inline-block
+	// display inline-block
 	width 400px
 	margin-left 15px
-	border-left 1px solid black
+	// border-left 1px solid black
 	padding 1rem
+
+article
+	display flex
+		
+
 
 // Tablet (portrait)
 @media only screen and (min-width: 768px) and (max-width: 959px)
 	body
 		background green
+	.resultado
+		display inline-block
+	.codigo
+		display inline-block
 
 // Mobile (portrait)
 @media only screen and (max-width: 767px)
 	body
 		background yellow
+	article
+		display block	
+	.codigo
+		border-top 1px solid black
 
 // Mobile (landscape)
 @media only screen and (min-width: 480px) and (max-width: 767px)
 	body
 		background red
-		
+	article
+		display block
+	.resultado
+		width 700px	
+	.codigo
+		width 700px
