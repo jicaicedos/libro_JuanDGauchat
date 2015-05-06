@@ -20,6 +20,7 @@ header, nav, section, article, figure, figcaption, address, aside, footer
 a
 	display block
 	text-decoration none
+	text-transform uppercase
 	
 h1
 	font-family 'Josefin Sans', sans-serif;
@@ -110,7 +111,7 @@ figcaption
 		padding-left 1em
 		text-align center
 		& a
-			font normal 1em 'Lobster', sans-serif
+			font bold 1em 'Josefin Sans', sans-serif
 	& ul li:hover
 		background #C2DED0
 	
@@ -122,9 +123,9 @@ figcaption
 	padding 20px
 	text-align center
 	& small
-		font 10px 'Fredericka the Great', cursive
+		font 10px 'Josefin Sans', cursive
 	& p
-		font 18px 'Lobster', cursive
+		font 18px 'Josefin Sans', cursive
 	& a::before, a::after
 		content " = "
 		
@@ -168,7 +169,7 @@ figcaption
 		width 38em
 	#menu li
 		display inline-block
-		font 16px 'Lobster', cursive
+		font 16px 'Josefin Sans', cursive
 		list-style none	
 		margin-bottom .1em
 		margin-top .1em
@@ -177,6 +178,8 @@ figcaption
 		background #DDD
 		border-radius 20px
 		border 1px solid #000
+	a
+		font-size 6px
 
 // Tablet (portrait)
 @media only screen and (min-width: 768px)
