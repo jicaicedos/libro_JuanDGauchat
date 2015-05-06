@@ -92,21 +92,18 @@ figcaption
 	// width 960px
 	
 #menu
+	margin 0
+	padding 0
 	background #CCC
-	padding 5px 15px
+	& li
+		list-style none
+		border-bottom 1px solid black
+		font bold 16px 'Josefin Sans', sans-serif
+		padding .1em
+		padding-left 1em
 	& ul li:hover
 		background #C2DED0
 	
-#menu li
-	display inline-block
-	font 18px 'Lobster', cursive
-	list-style none	
-	padding 5px
-	padding-left 10px
-	padding-right 10px
-	background #DDD
-	border-radius 20px
-	border 1px solid #000
 	
 #pie
 	background #EAC044
@@ -136,6 +133,7 @@ figcaption
 	// border-left 1px solid black
 	padding 1rem
 
+
 // article
 // 	display flex
 
@@ -151,20 +149,28 @@ figcaption
 		width 17em
 	.codigo
 		border-top 1px solid black
-	#menu ul li
-		margin-bottom .2em
-		text-align center
-		display block
-		width 15em
-	
 
 
 // Mobile (landscape)
 @media only screen and (min-width: 480px) and (max-width: 767px)
 	body
 		background red
+	// #menu ul li
+	// 	float left
+	// 	width 
 	article
-		display block
+		float left
+		width 45em
+	#menu li
+		display inline-block
+		font 18px 'Lobster', cursive
+		list-style none	
+		padding 5px
+		padding-left 10px
+		padding-right 10px
+		background #DDD
+		border-radius 20px
+		border 1px solid #000
 
 // Tablet (portrait)
 @media only screen and (min-width: 768px) and (max-width: 959px)
@@ -174,3 +180,5 @@ figcaption
 		display inline-block
 	.codigo
 		display inline-block
+
+// @media only screen and (min-width: 960px)
