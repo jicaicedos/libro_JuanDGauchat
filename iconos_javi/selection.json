@@ -1,0 +1,175 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M1024 608l-192-192v-288h-128v160l-192-192-512 512v32h128v320h320v-192h128v192h320v-320h128z"
+				],
+				"attrs": [],
+				"tags": [
+					"home",
+					"house"
+				],
+				"defaultCode": 57346,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 52,
+				"order": 3,
+				"prevSize": 32,
+				"code": 59650,
+				"ligatures": "home3, house3",
+				"name": "inicio"
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 2
+		},
+		{
+			"icon": {
+				"paths": [
+					"M864 0c88.364 0 160 71.634 160 160 0 36.020-11.91 69.258-32 96l-64 64-224-224 64-64c26.742-20.090 59.978-32 96-32zM64 736l-64 288 288-64 592-592-224-224-592 592zM715.578 363.578l-448 448-55.156-55.156 448-448 55.156 55.156z"
+				],
+				"attrs": [],
+				"tags": [
+					"pencil",
+					"write",
+					"edit"
+				],
+				"defaultCode": 57357,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 64,
+				"order": 4,
+				"prevSize": 32,
+				"code": 59653,
+				"ligatures": "pencil, write",
+				"name": "lapiz"
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 5
+		},
+		{
+			"icon": {
+				"paths": [
+					"M960 0h64v736c0 88.366-100.29 160-224 160s-224-71.634-224-160c0-88.368 100.29-160 224-160 62.684 0 119.342 18.4 160 48.040v-368.040l-512 113.778v494.222c0 88.366-100.288 160-224 160s-224-71.634-224-160c0-88.368 100.288-160 224-160 62.684 0 119.342 18.4 160 48.040v-624.040l576-128z"
+				],
+				"attrs": [],
+				"tags": [
+					"music",
+					"song",
+					"audio",
+					"sound",
+					"note"
+				],
+				"defaultCode": 57404,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 114,
+				"order": 7,
+				"prevSize": 32,
+				"code": 59665,
+				"ligatures": "music, song",
+				"name": "musica"
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 17
+		},
+		{
+			"icon": {
+				"paths": [
+					"M640 576c105.87 0 201.87 43.066 271.402 112.598l-90.468 90.468c-46.354-46.356-110.356-75.066-180.934-75.066s-134.578 28.71-180.934 75.066l-90.468-90.468c69.532-69.532 165.532-112.598 271.402-112.598zM187.452 507.452c120.88-120.88 281.598-187.452 452.548-187.452s331.668 66.572 452.55 187.452l-90.51 90.508c-96.706-96.704-225.28-149.96-362.040-149.96-136.762 0-265.334 53.256-362.038 149.962l-90.51-90.51zM988.784 134.438c106.702 45.132 202.516 109.728 284.782 191.996v0l-90.508 90.508c-145.056-145.056-337.92-224.942-543.058-224.942-205.14 0-398 79.886-543.058 224.942l-90.51-90.51c82.268-82.266 178.082-146.862 284.784-191.994 110.504-46.738 227.852-70.438 348.784-70.438s238.278 23.7 348.784 70.438zM576 896c0-35.346 28.654-64 64-64s64 28.654 64 64c0 35.346-28.654 64-64 64s-64-28.654-64-64z"
+				],
+				"width": 1280,
+				"attrs": [],
+				"tags": [
+					"connection",
+					"wifi",
+					"wave"
+				],
+				"defaultCode": 57442,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"order": 5,
+				"id": 1504,
+				"prevSize": 32,
+				"code": 59675,
+				"ligatures": "connection, wifi",
+				"name": "wifi"
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 27
+		},
+		{
+			"icon": {
+				"paths": [
+					"M480 704c88.366 0 160-71.634 160-160v-384c0-88.366-71.634-160-160-160s-160 71.634-160 160v384c0 88.366 71.636 160 160 160zM704 448v96c0 123.71-100.29 224-224 224-123.712 0-224-100.29-224-224v-96h-64v96c0 148.238 112.004 270.3 256 286.22v129.78h-128v64h320v-64h-128v-129.78c143.994-15.92 256-137.982 256-286.22v-96h-64z"
+				],
+				"attrs": [],
+				"tags": [
+					"mic",
+					"microphone",
+					"voice",
+					"audio"
+				],
+				"defaultCode": 57453,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 167,
+				"order": 6,
+				"prevSize": 32,
+				"code": 59678,
+				"ligatures": "mic, microphone",
+				"name": "microfono"
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 30
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "iconos_javi"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"fontPref": {
+			"prefix": "icono_",
+			"metadata": {
+				"fontFamily": "iconos_javi",
+				"majorVersion": 1,
+				"minorVersion": 0
+			},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			}
+		},
+		"imagePref": {
+			"prefix": "icon-",
+			"png": true,
+			"useClassSelector": true,
+			"color": 4473924,
+			"bgColor": 16777215
+		},
+		"historySize": 100,
+		"showCodes": false
+	}
+}

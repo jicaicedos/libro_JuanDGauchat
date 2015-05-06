@@ -1,0 +1,11 @@
+/*a {
+	padding-left: 2px;
+}
+*/
+input[type="date"] {
+	background: #3D9F38;
+}
+
+input[type="date"]:focus {
+	color: #000;
+}

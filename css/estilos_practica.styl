@@ -1,6 +1,7 @@
 *
 	margin 0
 	padding 0
+	// font-size 14px
 	-moz-box-sizing border-box
 	-webkit-box-sizing border-box
 	box-sizing border-box
@@ -27,8 +28,6 @@ article
 	background #55F
 	display inline-block
 	width 650px
-	// display -webkit-inline-box
-	// display -moz-inline-box
 	border 2px solid gray
 	margin-bottom 1rem
 
@@ -65,10 +64,7 @@ p
 
 section
 	float left
-	// display -webkit-inline-box
-	// display -moz-display inline-block
 	margin 1rem
-	width 660px
 
 time
 	color #999
@@ -91,13 +87,15 @@ figcaption
 		background #A7CEDA
 
 #contenedor_principal 
-	margin auto
+	// margin auto
 	text-align left
-	width 960px
+	// width 960px
 	
 #menu
 	background #CCC
 	padding 5px 15px
+	& ul li:hover
+		background #C2DED0
 	
 #menu li
 	display inline-block
@@ -120,8 +118,9 @@ figcaption
 		font 10px 'Fredericka the Great', cursive
 	& p
 		font 18px 'Lobster', cursive
-
-	
+	& a::before, a::after
+		content " = "
+		
 .post
 	padding 1.4rem
 
@@ -137,10 +136,35 @@ figcaption
 	// border-left 1px solid black
 	padding 1rem
 
-article
-	display flex
-		
+// article
+// 	display flex
 
+
+// Mobile (portrait)
+@media only screen and (max-width: 767px)
+	*
+		font-size 16px
+	body
+		background yellow
+	article
+		display block	
+		width 17em
+	.codigo
+		border-top 1px solid black
+	#menu ul li
+		margin-bottom .2em
+		text-align center
+		display block
+		width 15em
+	
+
+
+// Mobile (landscape)
+@media only screen and (min-width: 480px) and (max-width: 767px)
+	body
+		background red
+	article
+		display block
 
 // Tablet (portrait)
 @media only screen and (min-width: 768px) and (max-width: 959px)
@@ -150,23 +174,3 @@ article
 		display inline-block
 	.codigo
 		display inline-block
-
-// Mobile (portrait)
-@media only screen and (max-width: 767px)
-	body
-		background yellow
-	article
-		display block	
-	.codigo
-		border-top 1px solid black
-
-// Mobile (landscape)
-@media only screen and (min-width: 480px) and (max-width: 767px)
-	body
-		background red
-	article
-		display block
-	// .resultado
-	// 	width 700px	
-	// .codigo
-	// 	width 700px
