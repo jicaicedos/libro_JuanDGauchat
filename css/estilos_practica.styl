@@ -1,6 +1,9 @@
-verde_fondo = #5A8D5A
-amarillo_fondo = #EBC513
-rojo_fondo = #D72222
+verde_fondo = #D3E4D3
+amarillo_fondo = #EAE3C1
+rojo_fondo = #CA6F56
+color_cabecera = #213857
+color_pie_pagina = #697880
+color_texto_cabecera = #B9CAD1
 
 	// font bold 16px verdana, sans-serif
 	// font-family 'Lobster', cursive;
@@ -80,8 +83,9 @@ figcaption
 	font italic 14px verdana, sans-serif
 	
 #cabecera
-	background #FFFBB9
+	background color_cabecera
 	border 1px solid #999999
+	color color_texto_cabecera
 	padding 20px
 	& h1
 		font-size 1.5em
@@ -117,17 +121,20 @@ figcaption
 	
 	
 #pie
-	background #EAC044
+	background color_pie_pagina
 	border-top 2px solid #000
+	color color_texto_cabecera
 	clear both
 	padding 20px
 	text-align center
 	& small
-		font 10px 'Josefin Sans', cursive
+		font bold 14px 'Josefin Sans', cursive
 	& p
 		font 18px 'Josefin Sans', cursive
 	& a::before, a::after
 		content " = "
+#pie a
+	color white
 		
 .post
 	padding 1.4rem
@@ -178,8 +185,6 @@ figcaption
 		background #DDD
 		border-radius 20px
 		border 1px solid #000
-	a
-		font-size 6px
 
 // Tablet (portrait)
 @media only screen and (min-width: 768px)
