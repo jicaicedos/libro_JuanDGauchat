@@ -93,6 +93,9 @@ figcaption
 	
 .codigo span, em
 	font-size .75em
+	& a
+		font italic 14px verdana, sans-serif
+		text-transform lowercase
 	
 .resultado 
 	text-align center
@@ -212,7 +215,7 @@ video
 	border-radius 5px
 	border 1px solid gray
 
-#tiempos_video
+#tiempos
 	display inline-block
 	border 1px solid black
 	background #F18512
@@ -223,13 +226,13 @@ video
 	margin 5px
 	border 0px solid black
 
-#reproductor_video_avance
+#reproductor_avance
 	margin-top 5px
 	float left
 	&::after
 		content " /"
 	
-#reproductor_video_duracion
+#reproductor_duracion
 	margin-top 5px
 	float left
 
