@@ -19,23 +19,23 @@ function mostrarAlerta() {
 
 function mostrarTexto() {
 	var texto = document.querySelector("#texto1")
-	texto.innerHTML = "function <strong>hacerClic()</strong> {<br>"
+	texto.innerHTML = "function hacerClic() {<br>"
 	texto.innerHTML += "	var lista = <br>"
-	texto.innerHTML += "<strong>document.querySelectorAll('.resultado p')</strong><br>"
+	texto.innerHTML += "document.querySelectorAll('.resultado p')<br>"
 	texto.innerHTML += "	for (var i = 0; i < lista.length; i++) {<br>"
-	texto.innerHTML += "		lista[i].onclick=<strong>mostrarAlerta</strong><br>"
+	texto.innerHTML += "		lista[i].onclick=mostrarAlerta<br>"
 	texto.innerHTML += "	}<br>"
 	texto.innerHTML += "}<br><br>"
-	texto.innerHTML += "function <strong>mostrarAlerta()</strong> {<br>"
+	texto.innerHTML += "function mostrarAlerta() {<br>"
 	texto.innerHTML += "	alert('Hizo clic')<br>"
 	texto.innerHTML += "}<br><br>"
-	texto.innerHTML += "<strong>window.onload = hacerClic</strong><br>"	
+	texto.innerHTML += "window.onload = hacerClic<br>"	
 
 	var texto = document.querySelector("#texto2")
-	texto.innerHTML = "Este es el segundo <strong><em>article 1</em></strong> por eso debemos usar el indice = 1 <br><br>"
+	texto.innerHTML = "Este es el segundo <em>article 1</em> por eso debemos usar el indice = 1 <br><br>"
 	texto.innerHTML += "function hacerClic() {<br>"
 	texto.innerHTML += "var lista = <br>"
-	texto.innerHTML += "<strong>document.getElementsByClassName('resultado')[1].querySelectorAll('p')</strong><br>"
+	texto.innerHTML += "document.getElementsByClassName('resultado')[1].querySelectorAll('p')<br>"
 	texto.innerHTML += "	for (var i = 0; i < lista.length; i++) {<br>"
 	texto.innerHTML += "		lista[i].onclick=mostrarAlerta<br>. . ."
 

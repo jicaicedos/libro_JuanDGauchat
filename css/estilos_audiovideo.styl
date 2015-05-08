@@ -1,50 +1,48 @@
-// body, header, nav, section, article, 
-// *
-// 	margin 0
-// 	padding 0
-// 	-moz-box-sizing border-box
-// 	-webkit-box-sizing border-box
-// 	box-sizing border-box
-	
-// header, nav, section, article, figure, figcaption, address, aside, footer
-// 	display block
+video
+	padding .4em
+	width 16em
+	height auto
 
-body
-	text-align center
+#video_medio
+	border 1px solid gray
 
-#reproductor
-	height 20px auto
-	padding 5px
-	width 350
-	-moz-border-radius 5px
-	-webkit-border-radius 5px
-	border-radius 5px
+// #reproductor
+	// text-align center
+	// -moz-border-radius 5px
+	// -webkit-border-radius 5px
+	// border-radius 5px
+	// height 1em auto
+	// width 17em
 
-#botones
-	float left
+// #botones
+#tiempos_video
+	background orange
+	// margin 40px
+	border 2px solid black
+	display block
+	// float left
 	
 #reproductor_nav
-	margin 5px 0px
+	margin 5px
 	border 0px solid black
 
 #reproductor_video_avance
 	margin-top 5px
-	margin-left 15px
+	// margin-left 15px
 	float left
+	&::after
+		content " /"
 	
 #reproductor_video_duracion
 	margin-top 5px
 	float left
 	
-#reproductor_video_avance::after
-	content "/"
-
 #barra
-	// position relative
+	position relative
 	background white
-	height 10px
-	width 350px
-	border-radius 5px
+	height .7em
+	width 16em
+	border-radius .4em
 
 #progreso
 	background rgba(0,0,150,0.4)
@@ -53,18 +51,16 @@ body
 	width 0px
 	border-radius 5px
 
-#medio
-	border 2px solid black
-
 #reproducir
 	border-radius 25px
 	padding 5px
-	width 100px
+	width 120px
 	font-weight bold
+	float left
 	
-#duracion
-	float right
-	padding-top 10px
+// #duracion
+// 	float right
+// 	padding-top 10px
 
 //	=================================================================
 //	Estilos para reproductor de audio con componentes HTML5 y CSS3

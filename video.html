@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Practica Javascript</title>
 	<link rel="stylesheet" href="css/estilos_practica.css">
-	<link rel="stylesheet" href="css/propiedades_css.css">	
 	<link rel="stylesheet" href="css/estilos_audiovideo.css">
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans|Lobster|Righteous' rel='stylesheet' type='text/css'>
 
@@ -32,10 +31,36 @@
 			</ul>
 		</nav>
 		<section>
-			<article>				
+ 			<article>				
+				<div class="resultado">
+					<div id="reproductor">
+						<span>Reproductor de video con HTML5 y CSS3</span>
+						<video id="video_medio" poster="images/0019-play.png">
+							<source src="videos/proxima_parada_estadio.mp4"/>
+						</video>
+						<nav id="reproductor_nav">
+							<div id="barra">
+								<div id="progreso"></div>
+							</div>
+						</nav>
+						<div id="tiempos_video">
+							<button type="button" id="reproducir">Reproducir</button>
+							<p id="reproductor_video_avance">0:0:0</p>
+							<p id="reproductor_video_duracion">0:0:0</p>	
+						</div>
+					</div>
+				</div>
+				<div class="codigo">
+					<h2>Se crean los botones de control mediante HTML5 y CSS3</h2>
+					<span id="texto4_html"></span>
+					<span>//Código del reproductor</span>
+					<p><a href="js/reproductor_audio.js">reproductor.js</a></p>
+				</div>
+			</article>
+<!-- 			<article>				
 				<div class="resultado">
 					<span>Publicar video en formato <strong><em>mp4</em></strong></span><br><br>
-					<video width="350" height="auto" controls>
+					<video controls>
 						<source src="videos/proxima_parada_estadio.mp4"/>
 					</video>
 				</div>
@@ -75,38 +100,9 @@
 					<p>Al video se le coloca una imagen como preámbulo como portada, se podría decir</p>
 				</div>
 			</article>		
-			<article>				
-				<div class="resultado">
-					<div id="reproductor">
-						<span>Reproductor de video personalizado</span><br><br>
-						<video id="medio" width="350" height="auto" 
-							poster="images/0019-play.png">
-							<source src="videos/proxima_parada_estadio.mp4"/>
-						</video>
-						<nav id="reproductor_nav">
-							<div id="barra">
-								<div id="progreso"></div>
-							</div>
-						</nav>
-						<div id="tiempos_video">
-							<div id="botones">
-								<button type="button" id="reproducir">Reproducir</button>
-							</div>
-							<p id="reproductor_video_avance">0:0:0</p>
-							<p id="reproductor_video_duracion">0:0:0</p>							
-						</div>
-					</div>
-				</div>
-				<div class="codigo">
-					<h2>Se crean los botones de control mediante HTML5 y CSS3</h2><br><br>
-					<span id="texto4_html"></span><br>
-					<span>//Código del reproductor</span><br><br>
-					<p><a href="js/reproductor_audio.js">reproductor.js</a></p>
-				</div>
-			</article>
+ -->			
 		</section>
 	</div>
 </body>
 <script src="js/js_textos.js"></script>
-<script src="js/reproductor.js"></script>
 </html>

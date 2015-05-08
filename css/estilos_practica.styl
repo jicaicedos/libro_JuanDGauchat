@@ -36,9 +36,14 @@ h1
 
 h2
 	font bold 1em verdana, sans-serif
-p
+h3
+	padding .5em
+	font bold .8em verdana, sans-serif	
+p, span
 	font normal 0.75em verdana, sans-serif
 
+em
+	font-size .75em
 article
 	background #55F
 	display inline-block
@@ -86,6 +91,17 @@ time
 figcaption
 	font italic 14px verdana, sans-serif
 	
+.codigo span, em
+	font-size .75em
+	
+.resultado 
+	text-align center
+	& p
+		padding .5em
+	& span
+		padding .5em
+	
+
 #cabecera
 	text-align center
 	background color_cabecera
@@ -112,6 +128,7 @@ figcaption
 	& ul li:hover
 		background #C2DED0
 	
+
 #pie
 	background color_pie_pagina
 	border-top 2px solid #000
@@ -179,6 +196,7 @@ figcaption
 	color hsla(10, 100%, 50%, 0.8)
 
 .codigo
+	background #896767
 	padding .5em
 
 
@@ -205,7 +223,7 @@ figcaption
 		width 38em
 	#menu li
 		display inline-block
-		font 16px 'Josefin Sans', cursive
+		font .9em 'Josefin Sans', cursive
 		list-style none	
 		margin-bottom .1em
 		margin-top .1em
