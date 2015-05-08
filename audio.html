@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Practica Javascript</title>
@@ -32,17 +32,17 @@
 		<section>
 			<article>
 				<div class="resultado">
+					<span>Reproductor de Audio con HTML5 y CSS3</span>
+					<audio id="miaudio" width="200">
+						<source src="audios/Himno a Colombia.mp3"></source>
+						<source src="audios/Himno a Colombia.ogg"></source>
+					</audio>
 					<div id="reproductor">
-						<span>Reproductor de Audio con HTML5 y CSS3</span>
-						<audio id="miaudio" width="200">
-							<source src="audios/Himno a Colombia.mp3"></source>
-							<source src="audios/Himno a Colombia.ogg"></source>
-						</audio>
-						<nav id="reproductor_nav">
-							<div id="reproductor_barra">
+						<div id="reproductor_nav">
+							<div id="barra">
 								<div id="progreso"></div>
 							</div>
-						</nav>
+						</div>
 						<div id="tiempos">
 							<button type="button" id="reproducir">Reproducir</button>
 							<p id="reproductor_avance">0:0:0</p>

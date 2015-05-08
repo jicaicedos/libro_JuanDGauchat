@@ -5,12 +5,12 @@
 */
 (
 	function () {
-		barra = document.getElementById("reproductor_audio_barra")
-		progreso = document.getElementById("progreso_audio")
-		reproducir = document.getElementById("reproductor_audio_reproducir")
+		barra = document.getElementById("reproductor_barra")
+		progreso = document.getElementById("progreso")
+		reproducir = document.getElementById("reproducir")
 		audio = document.getElementById("miaudio")
-		duracion_avance = document.getElementById("reproductor_audio_avance")
-		duracion = document.getElementById("reproductor_audio_duracion")
+		duracion_avance = document.getElementById("reproductor_avance")
+		duracion = document.getElementById("reproductor_duracion")
 		maximo = 200
 
 		reproducir.addEventListener("click", presionar, false)

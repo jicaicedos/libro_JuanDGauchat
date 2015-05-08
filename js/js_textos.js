@@ -1,17 +1,17 @@
 ( function () {
 	var texto1 = document.getElementById("texto1")
 	texto1.innerHTML = "< video width='350' height='auto' controls > <br>"
-	texto1.innerHTML += "<source src='videos/proxima_parada_estadio.mp4'/>"
+	texto1.innerHTML += "< source src='videos/proxima_parada_estadio.mp4'/ >"
 	texto1.innerHTML += "< /video > <br>"
 
 	var texto2 = document.getElementById("texto2")
 	texto2.innerHTML = "< video width='350' height='auto' controls > <br>"
-	texto2.innerHTML += "<source src='videos/proxima_parada_estadio.ogv'/> <br>"
+	texto2.innerHTML += "< source src='videos/proxima_parada_estadio.ogv'/ > <br>"
 	texto2.innerHTML += "< /video > <br>"
 
 	var texto3 = document.getElementById("texto3")
 	texto3.innerHTML = "< video width='350' height='auto' controls <br>"
-	texto3.innerHTML += " <poster='images/cristo_rey_cali.jpg'><br>"
+	texto3.innerHTML += " < poster='images/cristo_rey_cali.jpg' ><br>"
 	texto3.innerHTML += "< source src='videos/proxima_parada_estadio.mp4' /> <br>"
 	texto3.innerHTML += "< /video > <br>"
 
